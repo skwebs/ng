@@ -2,53 +2,44 @@
 <html ng-app="amaApp" ng-controller="amaCtrl">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>AngularJS Project</title>
-  <!-- Bootstrap core CSS -->
-  <link href="./assets/vendor/bootstrap/4.5.0/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  
-  
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <style type="text/css">
-  .purple {
-     background-color:#9C27B0 !important; 
-   }
-  .navbar-light .navbar-toggler-icon {
-  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); 
-  }
-  .navbar .navbar-toggler {
-     border-width:0;
-     outline:0; 
-  }
-  </style>
-  <!--<base href="/AngularJS-Project/" >-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>AngularJS Project</title>
+	<!-- Bootstrap core CSS -->
+	<link href="./assets/vendor/bootstrap/4.5.0/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+
+
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<style type="text/css">
+
+	</style>
+	<!--<base href="/AngularJS-Project/" >-->
 </head>
 
 <body class="d-flex flex-column" data-toggle="collapse" data-target=".navbar-collapse.show">
 
-  <header>
-    <div ng-include="'templates/header.html'"></div>
-  </header>
+	<header>
+		<div ng-include="'templates/header.html'"></div>
+	</header>
 
-  <main class="grey lighten-4">
-    <div ui-view></div>
-  </main>
+	<main>
+		<div ui-view></div>
+	</main>
 
-  <div class="teal" ng-include="'templates/footer.html'"></div>
+	<div class="teal" ng-include="'templates/footer.html'"></div>
 
-  <!-- JQuery -->
-  <script src="./assets/vendor/jquery/3.5.1/jquery.slim.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script src="./assets/vendor/bootstrap/4.5.0/bootstrap.min.js"></script>
-  <!-- AngularJS core JavaScript -->
-  <script src="./assets/vendor/angularjs/angular.min.js"></script>
-  <!-- ui-router JavaScript -->
-  <script src="./assets/vendor/angularjs/angular-ui-router.min.js"></script>
-  <!-- app JavaScript -->
-  <script src="./assets/js/amaApp.js"></script>
+	<!-- JQuery -->
+	<script src="./assets/vendor/jquery/3.5.1/jquery.slim.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="./assets/vendor/bootstrap/4.5.0/bootstrap.min.js"></script>
+	<!-- AngularJS core JavaScript -->
+	<script src="./assets/vendor/angularjs/angular.min.js"></script>
+	<!-- ui-router JavaScript -->
+	<script src="./assets/vendor/angularjs/angular-ui-router.min.js"></script>
+	<!-- app JavaScript -->
+	<script src="./assets/js/amaApp.js"></script>
 </body>
 
 </html>
