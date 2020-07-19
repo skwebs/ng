@@ -1,0 +1,38 @@
+<!--Navbar-->
+<nav class="navbar navbar-expand-md fixed-top navbar-light bg-white py- ">
+<div class="container" >
+  <!-- Navbar brand -->
+  <a class="navbar-brand" ui-sref="home()" >
+	<img src="{{brandImg}}">
+  </a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="mainNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" ui-sref="home()" ui-sref-active="active" data-toggle="collapse" data-target=".navbar-collapse.show">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" ui-sref="about()" ui-sref-active="active" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" ui-sref="contact()" ui-sref-active="active" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Collapsible content -->
+</div>
+</nav>
+<!--/.Navbar-->
+ 
+ 
